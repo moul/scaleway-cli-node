@@ -95,6 +95,32 @@ Run a stopped server
     $ scw start 7313af22
     7313af22-62bf-4df1-9dc2-c4ffb4cb2d83
 
+Run a stopped server and wait for SSH to be ready
+
+    $ scw start --sync myserver
+    myserver
+    $ scw exec myserver /bin/bash
+    [root@noname ~]#
+
+Run a stopped server and wait for SSH to be ready (inline version)
+
+    $ scw exec $(scw start --sync myserver) /bin/bash
+    [root@noname ~]#
+
+Create, start and ssh to a new server (inline version)
+
+    $ scw exec $(scw start --sync $(scw create ubuntu-trusty)) /bin/bash
+    [root@noname ~]#
+
+Run a stopped server and wait for SSH to be ready with:
+
+- a timeout of 120 seconds for kernel to start
+- a timeout of 60 seconds for SSH to be ready
+- a global timeout of 150 seconds
+
+    $ scw start --sync --boot-timeout=120 --ssh-timeout=60 --timeout=150 myserver
+    global execution... failed: Operation timed out.
+
 Wait for a server to be in 'stopped' state
 
     $ scw wait 7313af22
