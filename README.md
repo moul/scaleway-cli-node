@@ -278,21 +278,21 @@ To enable debug you can use the environment variable `DEBUG=` as :
 - `DEBUG='scaleway-cli:*' scw ...` to see debug for `scaleway-cli`
 - `DEBUG='node-scaleway:*' scw ...` to see debug for `node-scaleway`
 
-    $ DEBUG='*' scw images
-      node-scaleway:lib GET https://api.cloud.online.net/images? +0ms { method: 'GET',
-      url: 'https://api.cloud.online.net/images?',
-      headers:
-       { Accept: 'application/json',
-         'User-Agent': 'node-scaleway',
-         'X-Auth-Token': 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' },
-      resolveWithFullResponse: true,
-      json: true }
-    REPOSITORY                                 TAG      IMAGE ID   CREATED        VIRTUAL SIZE
-    Fedora_21_Twenty-one                       latest   1f164079   10 days ago    50 GB
-    user/Archlinux_latest                      latest   1197ca91   10 days ago    50 GB
-    ...
-    scaleway-cli:utils saveEntities: removed 15 items +0ms
-    scaleway-cli:utils saveEntities: inserted 15 items +4ms
+        $ DEBUG='*' scw images
+          node-scaleway:lib GET https://api.cloud.online.net/images? +0ms { method: 'GET',
+          url: 'https://api.cloud.online.net/images?',
+          headers:
+           { Accept: 'application/json',
+             'User-Agent': 'node-scaleway',
+             'X-Auth-Token': 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx' },
+          resolveWithFullResponse: true,
+          json: true }
+        REPOSITORY                                 TAG      IMAGE ID   CREATED        VIRTUAL SIZE
+        Fedora_21_Twenty-one                       latest   1f164079   10 days ago    50 GB
+        user/Archlinux_latest                      latest   1197ca91   10 days ago    50 GB
+        ...
+        scaleway-cli:utils saveEntities: removed 15 items +0ms
+        scaleway-cli:utils saveEntities: inserted 15 items +4ms
 
 
 Install
