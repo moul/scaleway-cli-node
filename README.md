@@ -1,9 +1,9 @@
 # Scaleway CLI
 
-[![Build Status (Travis)](https://travis-ci.org/moul/scaleway-cli.svg?branch=master)](https://travis-ci.org/moul/scaleway-cli)
-[![Dependency Status](https://david-dm.org/moul/scaleway-cli.svg?theme=shields.io)](https://david-dm.org/moul/scaleway-cli)
-[![Total views](https://sourcegraph.com/api/repos/github.com/moul/scaleway-cli/counters/views.svg)](https://sourcegraph.com/github.com/moul/scaleway-cli)
-[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/moul/scaleway-cli/counters/views-24h.svg)](https://sourcegraph.com/github.com/moul/scaleway-cli)
+[![Build Status (Travis)](https://travis-ci.org/scaleway/scaleway-cli.svg?branch=master)](https://travis-ci.org/scaleway/scaleway-cli)
+[![Dependency Status](https://david-dm.org/scaleway/scaleway-cli.svg?theme=shields.io)](https://david-dm.org/scaleway/scaleway-cli)
+[![Total views](https://sourcegraph.com/api/repos/github.com/scaleway/scaleway-cli/counters/views.svg)](https://sourcegraph.com/github.com/scaleway/scaleway-cli)
+[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/scaleway/scaleway-cli/counters/views-24h.svg)](https://sourcegraph.com/github.com/scaleway/scaleway-cli)
 
 [![NPM Badge](https://nodei.co/npm/scaleway-cli.png)](https://npmjs.org/package/scaleway-cli)
 
@@ -258,7 +258,7 @@ Show public ip address of a server
 Workflows
 ---------
 
-For more examples, see [./examples/](https://github.com/moul/scaleway-cli/tree/master/examples) directory
+For more examples, see [./examples/](https://github.com/scaleway/scaleway-cli/tree/master/examples) directory
 
     # create a server with a nbd1 volume of 50G and rescue bootscript
     $ SERVER=$(scw create trusty --bootscript=rescue --volume=50000000000 --sync)
