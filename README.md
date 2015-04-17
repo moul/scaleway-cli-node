@@ -9,9 +9,7 @@
 
 Interact with Scaleway API from the command line.
 
-Uses [node-scaleway](https://github.com/moul/node-scaleway) SDK.
-
-Maintained by [Manfred Touron](https://github.com/moul)
+Uses [moul/node-scaleway](https://github.com/moul/node-scaleway) SDK.
 
 
 Usage
@@ -298,7 +296,7 @@ To enable debug you can use the environment variable `DEBUG=` as :
 Install
 -------
 
-1. Install `Node.js` and `npm`
+1. Install `Node.js` and `npm` (https://nodejs.org/download/)
 2. Install `scaleway-cli`: `$ npm install -g scaleway-cli`
 3. Setup token and organization: `$ scw login --token=XXXXX --organization=YYYYY`
 4. Use `$ scw images`
@@ -307,4 +305,4 @@ Install
 License
 -------
 
-[MIT](https://github.com/moul/scaleway-cli/blob/master/LICENSE.md)
+[MIT](https://github.com/scaleway/scaleway-cli/blob/master/LICENSE.md)
