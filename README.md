@@ -110,6 +110,17 @@ Create, start and ssh to a new server (inline version)
     $ scw exec $(scw start --sync $(scw create ubuntu-trusty)) /bin/bash
     [root@noname ~]#
 
+or
+
+    $ scw exec --wait $(scw start $(scw create ubuntu-trusty)) /bin/bash
+    [root@noname ~]#
+
+
+Wait for a server to be available, then execute a command
+
+    $ scw exec --wait myserver /bin/bash
+    [root@noname ~]#
+
 Run a stopped server and wait for SSH to be ready with:
 
 - a timeout of 120 seconds for kernel to start
