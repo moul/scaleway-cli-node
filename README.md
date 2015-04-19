@@ -209,6 +209,25 @@ Stop a running server
     $ scw stop 5cf8058e
     5cf8058e
 
+
+Stop multiple running servers
+
+    $ scw stop myserver myotherserver
+    901d082d-9155-4046-a49d-94355344246b
+    a0320ec6-141f-4e99-bf33-9e1a9de34171
+
+Terminate a running server
+
+    $ scw stop -t myserver
+    901d082d-9155-4046-a49d-94355344246b
+
+Stop all running servers matching 'mysql'
+
+    $ scw stop $(scw ps | grep mysql | awk '{print $1}')
+    901d082d-9155-4046-a49d-94355344246b
+    a0320ec6-141f-4e99-bf33-9e1a9de34171
+    36756e6e-3146-4b89-8248-abb060fc5b61
+
 Create a snapshot of the root volume of a server
 
     $ scw commit 5cf8058e
@@ -217,6 +236,20 @@ Create a snapshot of the root volume of a server
 Delete a stopped server
 
     $ scw rm 5cf8
+    5cf8082d-9155-4046-a49d-94355344246b
+
+Delete multiple stopped servers
+
+    $ scw rm myserver myotherserver
+    901d082d-9155-4046-a49d-94355344246b
+    a0320ec6-141f-4e99-bf33-9e1a9de34171
+
+Delete all stopped servers matching 'mysql'
+
+    $ scw rm $(scw ps -a | grep mysql | awk '{print $1}')
+    901d082d-9155-4046-a49d-94355344246b
+    a0320ec6-141f-4e99-bf33-9e1a9de34171
+    36756e6e-3146-4b89-8248-abb060fc5b61
 
 Create a snapshot of nbd1
 
