@@ -127,8 +127,8 @@ Run a stopped server and wait for SSH to be ready with:
 - a timeout of 60 seconds for SSH to be ready
 - a global timeout of 150 seconds
 
-    $ scw start --sync --boot-timeout=120 --ssh-timeout=60 --timeout=150 myserver
-    global execution... failed: Operation timed out.
+        $ scw start --sync --boot-timeout=120 --ssh-timeout=60 --timeout=150 myserver
+        global execution... failed: Operation timed out.
 
 Wait for a server to be in 'stopped' state
 
