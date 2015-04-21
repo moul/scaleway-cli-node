@@ -43,7 +43,7 @@
     "portscanner": "^1.0.0",
     "q": "^1.2.0",
     "scaleway": "^0.6.0",
-    "term.js-cli": "^0.2.0",
+    "term.js-cli": "^0.3.0",
     "validator": "^3.37.0"
   },
   "devDependencies": {
