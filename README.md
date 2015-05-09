@@ -1,11 +1,10 @@
 # Scaleway CLI
 
-[![Build Status (Travis)](https://travis-ci.org/scaleway/scaleway-cli.svg?branch=master)](https://travis-ci.org/scaleway/scaleway-cli)
-[![Dependency Status](https://david-dm.org/scaleway/scaleway-cli.svg?theme=shields.io)](https://david-dm.org/scaleway/scaleway-cli)
-[![Total views](https://sourcegraph.com/api/repos/github.com/scaleway/scaleway-cli/counters/views.svg)](https://sourcegraph.com/github.com/scaleway/scaleway-cli)
-[![Views in the last 24 hours](https://sourcegraph.com/api/repos/github.com/scaleway/scaleway-cli/counters/views-24h.svg)](https://sourcegraph.com/github.com/scaleway/scaleway-cli)
-
-[![NPM Badge](https://nodei.co/npm/scaleway-cli.png)](https://npmjs.org/package/scaleway-cli)
+[![Build Status (Travis)](https://img.shields.io/travis/scaleway/scaleway-cli.svg)](https://travis-ci.org/scaleway/scaleway-cli)
+[![Dependency Status](https://img.shields.io/david/scaleway/scaleway-cli.svg)](https://david-dm.org/scaleway/scaleway-cli)
+[![](https://img.shields.io/npm/dm/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
+[![](https://img.shields.io/npm/v/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
+[![](https://img.shields.io/npm/l/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
 
 Interact with Scaleway API from the command line.
 
