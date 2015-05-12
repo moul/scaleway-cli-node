@@ -393,6 +393,27 @@ $ scw inspect 90074de6 -f '.server.public_ip.address'
 ```
 
 
+## Advanced commands
+
+We added some non-docker inspired commands (hidden in the usage)
+
+#### _patch
+
+Usage:
+
+```console
+$ scw _patch item field1=value1 field2=value2
+```
+
+Example:
+
+```console
+$ scw _patch myserver state_detail=booted
+- state_detail: booting kernel => booted
+myserver
+```
+
+
 ## Workflows
 
 
