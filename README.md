@@ -92,7 +92,7 @@ $ scw start 7313af22
 Run a stopped server and wait for SSH to be ready
 
 ```console
-$ scw start --sync myserver
+$ scw start --wait myserver
 myserver
 $ scw exec myserver /bin/bash
 [root@noname ~]#
@@ -102,7 +102,7 @@ $ scw exec myserver /bin/bash
 Run a stopped server and wait for SSH to be ready (inline version)
 
 ```console
-$ scw exec $(scw start --sync myserver) /bin/bash
+$ scw exec $(scw start --wait myserver) /bin/bash
 [root@noname ~]#
 ```
 
@@ -110,7 +110,7 @@ $ scw exec $(scw start --sync myserver) /bin/bash
 Create, start and ssh to a new server (inline version)
 
 ```console
-$ scw exec $(scw start --sync $(scw create ubuntu-trusty)) /bin/bash
+$ scw exec $(scw start --wait $(scw create ubuntu-trusty)) /bin/bash
 [root@noname ~]#
 ```
 
@@ -137,7 +137,7 @@ Run a stopped server and wait for SSH to be ready with:
 - a global timeout of 150 seconds
 
 ```console
-$ scw start --sync --boot-timeout=120 --ssh-timeout=60 --timeout=150 myserver
+$ scw start --wait --boot-timeout=120 --ssh-timeout=60 --timeout=150 myserver
 global execution... failed: Operation timed out.
 ```
 
@@ -406,7 +406,7 @@ For more examples, see [./examples/](https://github.com/scaleway/scaleway-cli/tr
 
 ```console
 # create a server with a nbd1 volume of 50G and rescue bootscript
-$ SERVER=$(scw create trusty --bootscript=rescue --volume=50000000000 --sync)
+$ SERVER=$(scw create trusty --bootscript=rescue --volume=50000000000 --wait)
 # print the ip address of the server
 $ echo "Your server is ready and is available at: $(scw inspect ${SERVER} -f .server.public_ip.address)"
 ```
