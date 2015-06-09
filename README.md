@@ -406,7 +406,7 @@ myserver
 ## Workflows
 
 
-For more examples, see [./examples/](https://github.com/scaleway/scaleway-cli/tree/master/examples) directory
+For more examples, see [./examples/](https://github.com/moul/scaleway-cli-node/tree/master/examples) directory
 
 ```console
 # create a server with a nbd1 volume of 50G and rescue bootscript
@@ -455,4 +455,4 @@ scaleway-cli:utils saveEntities: inserted 15 items +4ms
 
 ## License
 
-[MIT](https://github.com/scaleway/scaleway-cli/blob/master/LICENSE.md)
+[MIT](https://github.com/moul/scaleway-cli-node/blob/master/LICENSE.md)
