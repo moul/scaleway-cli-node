@@ -1,7 +1,7 @@
 # Scaleway CLI
 
-[![Build Status (Travis)](https://img.shields.io/travis/scaleway/scaleway-cli.svg)](https://travis-ci.org/scaleway/scaleway-cli)
-[![Dependency Status](https://img.shields.io/david/scaleway/scaleway-cli.svg)](https://david-dm.org/scaleway/scaleway-cli)
+[![Build Status (Travis)](https://img.shields.io/travis/moul/scaleway-cli-node.svg)](https://travis-ci.org/moul/scaleway-cli-node)
+[![Dependency Status](https://img.shields.io/david/moul/scaleway-cli-node.svg)](https://david-dm.org/moul/scaleway-cli-node)
 [![](https://img.shields.io/npm/dm/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
 [![](https://img.shields.io/npm/v/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
 [![](https://img.shields.io/npm/l/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
