@@ -1,4 +1,6 @@
-# Scaleway CLI
+# node-scaleway (known as Scaleway CLI)
+
+## The official scaleway-cli was rewritten in Golang ([here](https://github.com/scaleway/scaleway-cli)), this project is now a node.js client to access the Scaleway API.
 
 [![Build Status (Travis)](https://img.shields.io/travis/moul/scaleway-cli-node.svg)](https://travis-ci.org/moul/scaleway-cli-node)
 [![Dependency Status](https://img.shields.io/david/moul/scaleway-cli-node.svg)](https://david-dm.org/moul/scaleway-cli-node)
