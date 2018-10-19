@@ -6,7 +6,7 @@
 [![Dependency Status](https://img.shields.io/david/moul/scaleway-cli-node.svg)](https://david-dm.org/moul/scaleway-cli-node)
 [![](https://img.shields.io/npm/dm/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
 [![](https://img.shields.io/npm/v/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
-[![](https://img.shields.io/npm/l/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli)
+[![](https://img.shields.io/npm/l/scaleway-cli.svg)](https://npmjs.org/package/scaleway-cli) [![GuardRails badge](https://badges.production.guardrails.io/moul/scaleway-cli-node.svg)](https://www.guardrails.io)
 
 Interact with Scaleway API from the command line.
 
